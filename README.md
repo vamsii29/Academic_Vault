@@ -27,7 +27,7 @@ Changes are committed and pushed using a local automation script.
 
 ## ⚙️ Setup (for personal use)
 
-1. Store your vault in iCloud:cd ~/Library/Mobile\ Documents/iCloud~md~obsidian/Documents/AcademicVault
+1. Store your vault in iCloud:~/Library/Mobile\ Documents/iCloud~md~obsidian/Documents/AcademicVault
 2. Initialize Git and link to GitHub repo
 3. Automate sync using `sync-notes.sh`
 
