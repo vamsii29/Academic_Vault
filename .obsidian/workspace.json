@@ -11,10 +11,14 @@
             "id": "b24b2a8d8d18dad8",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Cryptography/Lektion - 1.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Lektion - 1"
             }
           }
         ]
@@ -164,13 +168,13 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "b24b2a8d8d18dad8",
+  "active": "431c75456448f293",
   "lastOpenFiles": [
     "Resources/book.pdf",
     "Cryptography/Lektion - 1.md",
     "Resources/LaTeX Math Cheatsheet for Obsidian.md",
     "Cryptography/OVERVIEW - Cryptography.md",
-    "Resources/Library.md.md",
+    "Library.md.md",
     "Resources/KL21.pdf",
     "The Joy of Cryptography by *Mike.md",
     "Resources/Books.md",
