@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "9838d7c08e628dff",
+        "id": "30f680f44098c754",
         "type": "tabs",
         "children": [
           {
-            "id": "6b79ca705b4352b8",
+            "id": "b24b2a8d8d18dad8",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -158,11 +158,32 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "pdf-plus:PDF++: Toggle auto-copy": false,
+      "pdf-plus:PDF++: Toggle auto-focus": false,
+      "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "431c75456448f293",
+  "active": "b24b2a8d8d18dad8",
   "lastOpenFiles": [
+    "Resources/book.pdf",
+    "Cryptography/Lektion - 1.md",
+    "Resources/LaTeX Math Cheatsheet for Obsidian.md",
+    "Cryptography/OVERVIEW - Cryptography.md",
+    "Resources/Library.md.md",
+    "Resources/KL21.pdf",
+    "The Joy of Cryptography by *Mike.md",
+    "Resources/Books.md",
+    "Resources",
+    "Advanced_Networking_and_Future_Internet/OVERVIEW - Advanced networking and future internet.md",
+    "Advanced_Networking_and_Future_Internet/Lektion - 1.md",
+    "TAGS.md",
+    "Untitled.md",
+    "README.md",
+    "Game_Development/OVERVIEW - Game Development.md",
+    "Game_Development",
+    "Cryptography",
+    "Advanced_Networking_and_Future_Internet",
     "sync-notes.sh"
   ]
 }
