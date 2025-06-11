@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cryptography/Lectures/Lektion-1.md",
+                "file": "Cryptography/Lectures/Lektion-0.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lektion-1"
+              "title": "Lektion-0"
             }
           },
           {
@@ -27,16 +27,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cryptography/Lectures/Study notes.md",
+                "file": "Cryptography/Lectures/Lektion-0.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Study notes"
+              "title": "Lektion-0"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -109,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cryptography/Lectures/Study notes.md",
+                "file": "Cryptography/Lectures/Lektion-0.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +118,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Study notes"
+              "title": "Backlinks for Lektion-0"
             }
           },
           {
@@ -183,12 +182,12 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "364829026667962a",
+  "active": "5edcec09361e5540",
   "lastOpenFiles": [
-    "Cryptography/Lectures/Lektion-0.md",
     "Cryptography/Lectures/Study notes.md",
-    "README.md",
+    "Cryptography/Lectures/Lektion-0.md",
     "Cryptography/Lectures/Lektion-1.md",
+    "README.md",
     "Cryptography/Lectures/Sample Questions.md",
     "Cryptography/Library.md",
     "Cryptography/Rough notes.md",
