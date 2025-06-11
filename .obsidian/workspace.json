@@ -35,7 +35,8 @@
               "title": "Lektion-0"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -182,7 +183,7 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "5edcec09361e5540",
+  "active": "364829026667962a",
   "lastOpenFiles": [
     "Cryptography/Lectures/Study notes.md",
     "Cryptography/Lectures/Lektion-0.md",
