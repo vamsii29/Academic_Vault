@@ -1,6 +1,6 @@
 
 latex_document(
-    name = "repro",
+    name = "Academic_Vault",
     srcs = [
         "@bazel_latex//packages:amsmath",
     ],
