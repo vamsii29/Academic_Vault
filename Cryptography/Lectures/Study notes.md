@@ -5,7 +5,7 @@
 # Cryptography Fundamentals: A Study Guide
 
 This study guide is designed to help you review and deepen your understanding of core cryptography concepts. It covers foundational mathematical principles, essential cryptographic primitives, and various security definitions and attack models.
-## I. Core Concepts & Notation ([Lektion-0](Lektion-0))
+## I. Core Concepts & Notation ([Lektion-0](Lektion-0.md))
 
 - **[Logs & Exponents](Lektion-0#0.1-Logs\_and\_Exponents):** Understanding exponential relationships and their inverse, logarithms.
 - **[Modular Arithmetic](Lektion-0#0.2-Modular\_Arithmetic) ($\mathbb{Z}_n$, congruence, GCD, inverse):** Operations on integers modulo n, including definitions of $\mathbb{Z}_n$, congruence ($a \equiv_{n} b$), and the concept of a multiplicative inverse. Euclid's algorithm for Greatest Common Divisor (GCD) and its extension for finding modular inverses.
@@ -17,7 +17,7 @@ This study guide is designed to help you review and deepen your understanding of
 
 ## II. Cryptographic Primitives & Security Definitions
 
-### A. One-Time Pad & Kerckhoffs' Principle ([Lektion-1](Lektion-1))
+### A. One-Time Pad & Kerckhoffs' Principle ([Lektion-1](Lektion-1.md))
 
 - **[One-Time Pad (OTP)](Lektion-1#One-TimePad):** Understanding the specifics of OTP encryption and its perfect secrecy.
 - **Kerckhoffs' Principle:** The principle that a cryptosystem should be secure even if everything about the system, except the key, is public knowledge.
