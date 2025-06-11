@@ -7,7 +7,7 @@
 This study guide is designed to help you review and deepen your understanding of core cryptography concepts. It covers foundational mathematical principles, essential cryptographic primitives, and various security definitions and attack models.
 ## I. Core Concepts & Notation ([Lektion-0](Lektion-0.md))
 
-- **[Logs & Exponents](Lektion-0#0.1-Logs\_and\_Exponents):** Understanding exponential relationships and their inverse, logarithms.
+- **[Logs & Exponents](Lektion-0.md#0.1-Logs\_and\_Exponents):** Understanding exponential relationships and their inverse, logarithms.
 - **[Modular Arithmetic](Lektion-0#0.2-Modular\_Arithmetic) ($\mathbb{Z}_n$, congruence, GCD, inverse):** Operations on integers modulo n, including definitions of $\mathbb{Z}_n$, congruence ($a \equiv_{n} b$), and the concept of a multiplicative inverse. Euclid's algorithm for Greatest Common Divisor (GCD) and its extension for finding modular inverses.
 - **[Strings (XOR)](Lektion-0#0.3-Strings):** Bitwise exclusive-or (XOR) operation on strings of equal length, its properties (self-inverse, identity, associativity, symmetry), and its interpretation as bit-flipping.
 - **[Functions](Lektion-0#0.4-Functions):** Basic definitions and properties of functions relevant to cryptographic contexts.
