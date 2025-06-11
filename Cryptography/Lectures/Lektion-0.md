@@ -83,7 +83,7 @@ Let $X$ and $Y$ be finite sets. A function $f : X \rightarrow Y$ is:
 - **Surjective** : (onto) if every element in $Y$ is a possible output of $f$. Formally: for all $y \in Y$ there exists an $x \in X$ with $f(x) = y$. if there is a surjective function from $X$ to $Y$, then we must have $|Y| \le |X|$.
 - **Bijective** : (1-to-1 correspondence) if $f$ is both **injective and surjective**. If there is a bijective function from $X$ to $Y$, then we must have $|X| = |Y|$.
 
-###<a id="probability"></a>0.5-Probability
+### <a id="probability"></a>0.5-Probability
 
 - **Definition** : A (*discrete*) probability distribution over a set $X$ of outcomes is usually written as a function "$\Pr$" that associates each outcome $x \in X$ with a probability $\Pr[x]$. We often say that the distribution assigns probability $\Pr[x]$ to outcome $x$.
 	- for each outcome $x \in X$, the probability distribution must satisfy the condition $0 \le \Pr[x] \le 1$. Additionally, the sum of all probabilities $\sum_{x \in X} \Pr[x]$ must equal 1.
