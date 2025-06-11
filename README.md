@@ -40,6 +40,5 @@ Used strictly for academic purposes. Notes are private and not meant for public 
 
 ---
 
-# reference
 
-[[Study notes]]
+
