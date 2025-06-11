@@ -42,4 +42,4 @@ Used strictly for academic purposes. Notes are private and not meant for public 
 [Library](./Cryptography/Library.md)  
 
 
-[Lektion-0](./Cryptography/Lectures/Lektion-0)
+[Lektion-0](./Cryptography/Lectures/Lektion-0.md)

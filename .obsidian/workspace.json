@@ -185,6 +185,9 @@
   },
   "active": "364829026667962a",
   "lastOpenFiles": [
+    "_config.yml",
+    "Cryptography/Library.md",
+    "BUILD.bazel",
     "Cryptography/Lectures/Lektion-0.md",
     "README.md",
     "Cryptography/Lectures/Study notes.md",
