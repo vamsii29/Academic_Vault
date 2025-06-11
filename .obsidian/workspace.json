@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_config.yml.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "_config.yml"
+              "title": "README"
             }
           }
         ],
@@ -123,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_config.yml.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +133,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for _config.yml"
+              "title": "Backlinks for README"
             }
           },
           {
@@ -200,6 +200,7 @@
   "active": "fa3ad378062c1e6b",
   "lastOpenFiles": [
     "Cryptography/Lectures/Study notes.md",
+    "README.md",
     "_config.yml.md",
     "Cryptography/Lectures/Lektion-0.md",
     "BUILD.bazel.md",
@@ -221,7 +222,6 @@
     "Advanced_Networking_and_Future_Internet/OVERVIEW - Advanced networking and future internet.md",
     "Advanced_Networking_and_Future_Internet/Lektion - 1.md",
     "Cryptography/TAGS.md",
-    "README.md",
     "Game_Development/OVERVIEW - Game Development.md",
     "Game_Development",
     "Cryptography",
