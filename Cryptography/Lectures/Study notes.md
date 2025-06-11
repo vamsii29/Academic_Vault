@@ -1,4 +1,5 @@
 #OVERVIEW 
+#INTRODUCTION 
 
 ---
 # Cryptography Fundamentals: A Study Guide
@@ -16,9 +17,9 @@ This study guide is designed to help you review and deepen your understanding of
 
 ## II. Cryptographic Primitives & Security Definitions
 
-### A. One-Time Pad & Kerckhoffs' Principle (Chapter 1)
+### A. One-Time Pad & Kerckhoffs' Principle ([[Lektion-1]])
 
-- **One-Time Pad (OTP):** Understanding the specifics of OTP encryption and its perfect secrecy.
+- **[One-Time Pad (OTP)](Lektion-1#One-TimePad):** Understanding the specifics of OTP encryption and its perfect secrecy.
 - **Kerckhoffs' Principle:** The principle that a cryptosystem should be secure even if everything about the system, except the key, is public knowledge.
 
 ### B. Provable Security (Chapter 2)

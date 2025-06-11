@@ -1,6 +1,6 @@
 
 ---
-### Chapter 1 : One - Time Pad
+## One-Time Pad
 
 ---
 
