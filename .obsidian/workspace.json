@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "Cryptography/Lectures/Study notes.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "Study notes"
             }
           }
         ],
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "Cryptography/Lectures/Study notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for README"
+              "title": "Backlinks for Study notes"
             }
           },
           {
@@ -186,15 +186,15 @@
   "active": "364829026667962a",
   "lastOpenFiles": [
     "Cryptography/Lectures/Lektion-0.md",
+    "Cryptography/Lectures/Study notes.md",
+    "README.md",
     "Cryptography/Lectures/Lektion-1.md",
     "Cryptography/Lectures/Sample Questions.md",
-    "Cryptography/Lectures/Study notes.md",
     "Cryptography/Library.md",
     "Cryptography/Rough notes.md",
     "Cryptography/TAGS.md",
     "LaTeX Math Cheatsheet for Obsidian.md",
     "Lektion.md",
-    "README.md",
     "_config.yml",
     "BUILD.bazel",
     "Cryptography/Lectures/OVERVIEW - Cryptography.md",
