@@ -8,18 +8,18 @@ This study guide is designed to help you review and deepen your understanding of
 ## I. Core Concepts & Notation ([Lektion-0](Lektion-0.md))
 
 - **[Logs & Exponents](Lektion-0.md#0.1-Logs\_and\_Exponents):** Understanding exponential relationships and their inverse, logarithms.
-- **[Modular Arithmetic](Lektion-0#0.2-Modular\_Arithmetic) ($\mathbb{Z}_n$, congruence, GCD, inverse):** Operations on integers modulo n, including definitions of $\mathbb{Z}_n$, congruence ($a \equiv_{n} b$), and the concept of a multiplicative inverse. Euclid's algorithm for Greatest Common Divisor (GCD) and its extension for finding modular inverses.
-- **[Strings (XOR)](Lektion-0#0.3-Strings):** Bitwise exclusive-or (XOR) operation on strings of equal length, its properties (self-inverse, identity, associativity, symmetry), and its interpretation as bit-flipping.
-- **[Functions](Lektion-0#0.4-Functions):** Basic definitions and properties of functions relevant to cryptographic contexts.
-- **[Probability](Lektion-0#0.5-Probability):** Fundamental probability concepts used in security definitions and analysis (e.g., Birthday Probabilities).
-- **[Notation in Pseudocode](Lektion-0#0.6-Notations\_in\_Pseudocode):** Understanding common pseudocode conventions for algorithms.
-- **[Asymptotics (Big-O, Omega, Theta)](Lektion-0#0.7-Asymptotic\_(*Big-O*)):** Characterizing the efficiency and growth rate of algorithms using Big-O, Omega, and Theta notation. Understanding "computationally infeasible" attacks in terms of asymptotic complexity.
+- **[Modular Arithmetic](Lektion-0.md#0.2-Modular\_Arithmetic) ($\mathbb{Z}_n$, congruence, GCD, inverse):** Operations on integers modulo n, including definitions of $\mathbb{Z}_n$, congruence ($a \equiv_{n} b$), and the concept of a multiplicative inverse. Euclid's algorithm for Greatest Common Divisor (GCD) and its extension for finding modular inverses.
+- **[Strings (XOR)](Lektion-0.md#0.3-Strings):** Bitwise exclusive-or (XOR) operation on strings of equal length, its properties (self-inverse, identity, associativity, symmetry), and its interpretation as bit-flipping.
+- **[Functions](Lektion-0.md#0.4-Functions):** Basic definitions and properties of functions relevant to cryptographic contexts.
+- **[Probability](Lektion-0.md#0.5-Probability):** Fundamental probability concepts used in security definitions and analysis (e.g., Birthday Probabilities).
+- **[Notation in Pseudocode](Lektion-0.md#0.6-Notations\_in\_Pseudocode):** Understanding common pseudocode conventions for algorithms.
+- **[Asymptotics (Big-O, Omega, Theta)](Lektion-0.md#0.7-Asymptotic\_(*Big-O*)):** Characterizing the efficiency and growth rate of algorithms using Big-O, Omega, and Theta notation. Understanding "computationally infeasible" attacks in terms of asymptotic complexity.
 
 ## II. Cryptographic Primitives & Security Definitions
 
 ### A. One-Time Pad & Kerckhoffs' Principle ([Lektion-1](Lektion-1.md))
 
-- **[One-Time Pad (OTP)](Lektion-1#One-TimePad):** Understanding the specifics of OTP encryption and its perfect secrecy.
+- **[One-Time Pad (OTP)](Lektion-1.md#One-TimePad):** Understanding the specifics of OTP encryption and its perfect secrecy.
 - **Kerckhoffs' Principle:** The principle that a cryptosystem should be secure even if everything about the system, except the key, is public knowledge.
 
 ### B. Provable Security (Chapter 2)
