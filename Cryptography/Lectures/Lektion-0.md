@@ -1,10 +1,10 @@
 #INTRODUCTION 
 
 ---
-## Chapter - 0: Review of Concepts and Notations
+## Chapter - 0 : Review of Concepts and Notations
 
 ---
-### 0.1 Logs and Exponents:
+### 0.1-Logs\_and\_Exponents:
 
 - Some basic Stuff of Logs and exponents
 $$
@@ -20,16 +20,16 @@ $$
 a \log_xb = \log_x(b^a)
 $$
 
-### 0.2 Modular Arithmetic
+### 0.2-Modular\_Arithmetic
 
 - Some basic stuff to recap
 	- We write set of integers as: 
 $$
-\mathbb{Z} \coloneqq \{ \ldots, -2, -1, 0, 1, 2, \ldots \}
+\mathbb{Z} \overset{\text{def}}{=} \{ \ldots, -2, -1, 0, 1, 2, \ldots \}
 $$
 	- We write set of Natural numbers as 
 $$
-\mathbb{N} \coloneqq \{0, 1, 2, 3, \ldots \}
+\mathbb{N} \overset{\text{def}}{=} \{0, 1, 2, 3, \ldots \}
 $$
 - **1. Definition** : for $x, n \in \mathbb{Z}$ , we say that $n$ **divides** $x$ (or $x$ is a **multiple** of $n$ ), and write $n \mid x$ , if there exists an integer $k$ such that $x = kn$. 
 - **2. Definition** : Let $n$ be a positive integer, and let $a$ be any integer. The expression $a$ % $n$ (usually read as $a \bmod n$ )  represents the remainder after dividing $a$ by $n$. More formally, $a$ % $n$ is the unique $r \in {{0 ,\ldots, n-1}}$ such that $n \mid (a-r)$. 
@@ -38,7 +38,7 @@ $$
 		- 21 mod 7 = 0 because 21 = 3 . 7 + <u>0</u>
 		- -20 mod 7 = 1 because -20 = (-3) . 7 + <u>1</u> 
 		- -1 mod 7 = 6 because -1 = (-1) . 7 + <u>6</u>
-- **3. Definition** : For positive $n$, we write $\mathbb{Z}_n \coloneqq \{0, 1, 2, \ldots, n-1\}$ to denote the set of integers modulo $n$. These are the possible remainders one obtains by dividing by $n^2$.  
+- **3. Definition** : For positive $n$, we write $\mathbb{Z}_n \overset{\text{def}}{=} \{0, 1, 2, \ldots, n-1\}$ to denote the set of integers modulo $n$. These are the possible remainders one obtains by dividing by $n^2$.  
 - **4. Definition** : For positive $n$, we say that integers $a$ and $b$ are **congruent modulo** $n$, and write $a \equiv_n b \iff a \bmod n = b \bmod n$
 	- $a \equiv_n b$ : In this expression, $a$ and $b$ can be integers of any size, and any sign. The left and right side have a certain relationship modulo $n$.
 	- $a = b \bmod n$ : This expression says that two integers are equal. The '=' rather than '$\equiv$' is the clue that the expression refers to equailty over the integers. "$b \bmod n$" on the right-hand side is an operation performed on two integers that returns an integer results. The result of  $b \bmod n$ is an integer in the range $\{0, 1, 2, \ldots, n-1 \}$.
@@ -62,7 +62,7 @@ $$
 	$$= 100$$
 	$$\equiv_{11} 1$$
 
-### 0.3 Strings
+### 0.3-Strings
 
 - **Definition** : when $x$ and $y$ are strings of the same length, we write $x \oplus y$ to denote the bitwise exclusive-or (XOR) of the two strings. The expression $x \oplus y$ is generally not defined when the strings are different lengths, but in rare occasions it is useful to consider the shorter string being padded with 0s. When that's the case, we must have an explicit convention about whether the shorter string is padded with leading 0s or trailing 0s. 
 	- Example:  0011 $\oplus$ 0101 = 0110. The following facts about the XOR operation are frequently useful:
@@ -76,14 +76,14 @@ $$
 - **Addition mod-2** : XOR is just addition mod 2 in every bit. This way of thinking about XOR helps to explain why "algebraic" things like $(x \oplus y) \oplus z = x \oplus (y \oplus z)$ are true. They are true for addition so they are true for XOR.
 - **Definition** : we write $x \parallel y$  to denote the result of concatenating $x$ and $y$.
 
-### 0.4 Functions
+### 0.4-Functions
 
 Let $X$ and $Y$ be finite sets. A function $f : X \rightarrow Y$ is:
 - **Injective** : (1-to-1) if it maps distinct inputs to distinct outputs. Formally: $x \ne x' \Rightarrow f(x) \ne f(x')$. If there is an injective function from $X$ to $Y$, then we must have $|Y| \ge |X|$.
 - **Surjective** : (onto) if every element in $Y$ is a possible output of $f$. Formally: for all $y \in Y$ there exists an $x \in X$ with $f(x) = y$. if there is a surjective function from $X$ to $Y$, then we must have $|Y| \le |X|$.
 - **Bijective** : (1-to-1 correspondence) if $f$ is both **injective and surjective**. If there is a bijective function from $X$ to $Y$, then we must have $|X| = |Y|$.
 
-### 0.5 Probability
+### 0.5-Probability
 
 - **Definition** : A (*discrete*) probability distribution over a set $X$ of outcomes is usually written as a function "$\Pr$" that associates each outcome $x \in X$ with a probability $\Pr[x]$. We often say that the distribution assigns probability $\Pr[x]$ to outcome $x$.
 	- for each outcome $x \in X$, the probability distribution must satisfy the condition $0 \le \Pr[x] \le 1$. Additionally, the sum of all probabilities $\sum_{x \in X} \Pr[x]$ must equal 1.
@@ -106,7 +106,7 @@ Let $X$ and $Y$ be finite sets. A function $f : X \rightarrow Y$ is:
 		- in cryptography, people often use "random" to mean "uniformly random", but clarity helps avoid confusion
 		- key habit: Be precise - randomness comes from how a value is selected, not 
 
-### 0.6 Notations in Pseudocode
+### 0.6-Notations\_in\_Pseudocode
 
 We'll often describe algorithm / process using pseudocode.
 1. $\leftarrow$
@@ -128,7 +128,7 @@ We'll often describe algorithm / process using pseudocode.
 		means
 		$$\texttt{void} \quad \texttt{foo(string\:x)} \quad  \{ \ldots \}$$
 
-### 0.7 Asymptotic (*Big - O*)
+### 0.7-Asymptotic\_(*Big-O*)
 
 
 Let $f : \mathbb{N} \rightarrow \mathbb{N}$ be a function. We characterize the asymptotic growth of $f$ in the following ways"

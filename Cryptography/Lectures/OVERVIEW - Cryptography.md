@@ -1,11 +1,11 @@
 #OVERVIEW 
 
 ---
-We are going to follow the Book: [The Joy of Cryptography by Mike Rosulek](Resources/book.pdf)
+We are going to follow the Book: [The Joy of Cryptography by Mike Rosulek](book.pdf)
 
 ## Road-Map :
 
-### 0. Review of concepts [[Lektion - 1]]
+### 0. Review of concepts [[Lektion-0]]
 ### 1. Introduction
 ### 2. Provable Security
 ### 3. Computational Security 

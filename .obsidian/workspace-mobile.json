@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Advanced_Networking_and_Future_Internet/Lektion - 1.md",
+                "file": "Rough notes.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lektion - 1"
+              "title": "Rough notes"
             }
           }
         ]
@@ -147,15 +147,19 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "pdf-plus:PDF++: Toggle auto-copy": false,
+      "pdf-plus:PDF++: Toggle auto-focus": false,
+      "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
   "active": "e4adb4f79b7db2db",
   "lastOpenFiles": [
+    "Cryptography/OVERVIEW - Cryptography.md",
+    "Cryptography/Lektion - 1.md",
     "README.md",
     "TAGS.md",
     "Game_Development/OVERVIEW - Game Development.md",
-    "Cryptography/OVERVIEW - Cryptography.md",
     "Advanced_Networking_and_Future_Internet/OVERVIEW - Advanced networking and future internet.md"
   ]
 }
