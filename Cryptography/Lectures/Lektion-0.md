@@ -4,7 +4,7 @@
 ## Chapter - 0 : Review of Concepts and Notations
 
 ---
-### 0.1-Logs\_and\_Exponents:
+### 0.1-Logs-and-Exponents:
 
 - Some basic Stuff of Logs and exponents
 $$
