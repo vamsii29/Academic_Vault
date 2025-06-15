@@ -8,21 +8,21 @@
         "type": "tabs",
         "children": [
           {
-            "id": "5edcec09361e5540",
+            "id": "364829026667962a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cryptography/Lectures/Lektion-0.md",
+                "file": "Cryptography/Lectures/Study-notes.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lektion-0"
+              "title": "Study-notes"
             }
           },
           {
-            "id": "364829026667962a",
+            "id": "7bb10dea96986316",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -35,8 +35,7 @@
               "title": "Lektion-0"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -186,8 +185,9 @@
   },
   "active": "364829026667962a",
   "lastOpenFiles": [
-    "Cryptography/Lectures/Study-notes.md",
     "Cryptography/Lectures/Lektion-0.md",
+    "Cryptography/Lectures/Study-notes.md",
+    "Lektion.md",
     "README.md",
     "General-Resource/LaTeX Math Cheatsheet for Obsidian.md",
     "General-Resource",
@@ -198,7 +198,6 @@
     "Cryptography/Library.md",
     "Cryptography/Rough notes.md",
     "Cryptography/TAGS.md",
-    "Lektion.md",
     "_config.yml",
     "BUILD.bazel",
     "Cryptography/Lectures/OVERVIEW - Cryptography.md",
