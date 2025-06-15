@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cryptography/Lectures/Study-notes.md",
+                "file": "Cryptography/Lectures/Lektion-0.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Study-notes"
+              "title": "Lektion-0"
             }
           },
           {
@@ -185,10 +185,10 @@
   },
   "active": "364829026667962a",
   "lastOpenFiles": [
-    "Cryptography/Lectures/Lektion-0.md",
     "Cryptography/Lectures/Study-notes.md",
-    "Lektion.md",
+    "Cryptography/Lectures/Lektion-0.md",
     "README.md",
+    "Lektion.md",
     "General-Resource/LaTeX Math Cheatsheet for Obsidian.md",
     "General-Resource",
     "Study-notes.md",
