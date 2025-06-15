@@ -13,7 +13,7 @@ This study guide is designed to help you review and deepen your understanding of
 - **[Functions](Lektion-0.md#0.4-Functions):** Basic definitions and properties of functions relevant to cryptographic contexts.
 - **[Probability](Lektion-0.md#0.5-Probability):** Fundamental probability concepts used in security definitions and analysis (e.g., Birthday Probabilities).
 - **[Notation in Pseudocode](Lektion-0.md#0.6-Notations-in-Pseudocode):** Understanding common pseudocode conventions for algorithms.
-- **[Asymptotics (Big-O, Omega, Theta)](Lektion-0.md#0.7-Asymptotic-Notations):** Characterizing the efficiency and growth rate of algorithms using Big-O, Omega, and Theta notation. Understanding "computationally infeasible" attacks in terms of asymptotic complexity.
+- **[Asymptotics (Big-O, Omega, Theta)](Lektion-0.md#0.7-Asymptotic):** Characterizing the efficiency and growth rate of algorithms using Big-O, Omega, and Theta notation. Understanding "computationally infeasible" attacks in terms of asymptotic complexity.
 
 ## II. Cryptographic Primitives & Security Definitions
 
