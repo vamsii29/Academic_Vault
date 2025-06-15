@@ -1,3 +1,8 @@
 markdown: kramdown
-kramdown:
-  math_engine: mathjax
+theme: minima
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
