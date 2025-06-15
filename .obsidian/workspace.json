@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cryptography/Lectures/Study-notes.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Study-notes"
+              "title": "README"
             }
           },
           {
@@ -185,8 +185,8 @@
   },
   "active": "5edcec09361e5540",
   "lastOpenFiles": [
-    "README.md",
     "Cryptography/Lectures/Study-notes.md",
+    "README.md",
     "Study-notes.md",
     "Study.md",
     "Cryptography/Lectures/Lektion-0.md",

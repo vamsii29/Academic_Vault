@@ -39,4 +39,4 @@ Maintained by [@vamsii29](https://github.com/vamsii29)
 Used strictly for academic purposes. Notes are private and not meant for public use.
 
 ---
-# [STUDY NOTES](Study-notes) 
+# [STUDY NOTES](Study-notes.md) 
