@@ -2,10 +2,16 @@
 
 ---
 layout : default
+title: Chapter - 0 : Review of Concepts and Notations
+
+---
+
+
 ## Chapter - 0 : Review of Concepts and Notations
 ---
 ### 0.1-Logs-and-Exponents:
 <a id="0.1-Logs-and-Exponents"></a>
+
 - Some basic Stuff of Logs and exponents
 $$
 (x^a)(x^b) = (x)^{a+b}
@@ -22,6 +28,7 @@ $$
 
 ### 0.2-Modular-Arithmetic
 <a id="0.2-Modular-Arithmetic"></a>
+
 - Some basic stuff to recap
 	- We write set of integers as: 
 $$
@@ -64,6 +71,7 @@ $$
 
 ### 0.3-Strings
 <a id="0.3-Strings"></a>
+
 - **Definition** : when $x$ and $y$ are strings of the same length, we write $x \oplus y$ to denote the bitwise exclusive-or (XOR) of the two strings. The expression $x \oplus y$ is generally not defined when the strings are different lengths, but in rare occasions it is useful to consider the shorter string being padded with 0s. When that's the case, we must have an explicit convention about whether the shorter string is padded with leading 0s or trailing 0s. 
 	- Example:  0011 $\oplus$ 0101 = 0110. The following facts about the XOR operation are frequently useful:
 		-  $x \oplus x = 000...$                   XOR'ing a string with itself results in zeroes.
@@ -78,6 +86,7 @@ $$
 
 ### 0.4-Functions
 <a id="0.4-Functions"></a>
+
 Let $X$ and $Y$ be finite sets. A function $f : X \rightarrow Y$ is:
 - **Injective** : (1-to-1) if it maps distinct inputs to distinct outputs. Formally: $x \ne x' \Rightarrow f(x) \ne f(x')$. If there is an injective function from $X$ to $Y$, then we must have $|Y| \ge |X|$.
 - **Surjective** : (onto) if every element in $Y$ is a possible output of $f$. Formally: for all $y \in Y$ there exists an $x \in X$ with $f(x) = y$. if there is a surjective function from $X$ to $Y$, then we must have $|Y| \le |X|$.
@@ -85,6 +94,7 @@ Let $X$ and $Y$ be finite sets. A function $f : X \rightarrow Y$ is:
 
 ### 0.5-Probability
 <a id="0.5-Probability"></a>
+
 - **Definition** : A (*discrete*) probability distribution over a set $X$ of outcomes is usually written as a function "$\Pr$" that associates each outcome $x \in X$ with a probability $\Pr[x]$. We often say that the distribution assigns probability $\Pr[x]$ to outcome $x$.
 	- for each outcome $x \in X$, the probability distribution must satisfy the condition $0 \le \Pr[x] \le 1$. Additionally, the sum of all probabilities $\sum_{x \in X} \Pr[x]$ must equal 1.
 - **Definition** : A special distribution is the uniform distribution over a finite set $X$, in which every $x \in X$ is assigned probability $\Pr[x] = \frac{1}{|X|}$. 
@@ -108,6 +118,7 @@ Let $X$ and $Y$ be finite sets. A function $f : X \rightarrow Y$ is:
 
 ### 0.6-Notations-in-Pseudocode
 <a id="0.6-Notations-in-Pseudocode"></a>
+
 We'll often describe algorithm / process using pseudocode.
 1. $\leftarrow$
 	- When $D$ is a probability distribution, we write $x \leftarrow D$ to mean "sample $x$ according to the distribution $D$."
@@ -130,6 +141,7 @@ We'll often describe algorithm / process using pseudocode.
 
 ### 0.7-Asymptotic-Notations
 <a id="0.7-Asymptotic-Notatio"></a>
+
 Let $f : \mathbb{N} \rightarrow \mathbb{N}$ be a function. We characterize the asymptotic growth of $f$ in the following ways"
 
 - #### Big - O Notation:  
