@@ -47,30 +47,14 @@ In short the expression like $a \equiv_n b$ make sense for any $a, b$ (including
 **Tips and Tricks:**
 
 Example: we can evaluate the expression 6 . 7 . 8 . 9 . 10 % 11 without ever calculating that product over the integers, by using the following reasoning:
-$$
-6 . 7 . 8 . 9 . 10 = (42) . 8 . 9 . 10
-$$
-$$
-\equiv_{11} 9 . 8 . 9 . 10
-$$
-$$
-= (72) . 9 . 10
-$$
-$$
-\equiv_{11} 6 . 9 . 10
-$$
-$$
-= (54) . 10
-$$
-$$
-\equiv_{11} 10 . 10
-$$
-$$
-= 100
-$$
-$$
-\equiv_{11} 1
-$$
+- $6 . 7 . 8 . 9 . 10 = (42) . 8 . 9 . 10$
+- $\equiv_{11} 9 . 8 . 9 . 10$
+- $= (72) . 9 . 10$
+- $\equiv_{11} 6 . 9 . 10$
+- $= (54) . 10$
+- $\equiv_{11} 10 . 10$
+- $= 100$
+- $\equiv_{11} 1$
 
 ### 0.3-Strings
 <a id="0.3-Strings"></a>
