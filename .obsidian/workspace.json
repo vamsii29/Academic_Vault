@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cryptography/Lectures/Lektion-0.md",
+                "file": "Cryptography/Lectures/Study-notes.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lektion-0"
+              "title": "Study-notes"
             }
           },
           {
@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cryptography/Lectures/Study notes.md",
+                "file": "Cryptography/Lectures/Study-notes.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Study notes"
+              "title": "Study-notes"
             }
           }
         ]
@@ -185,10 +185,12 @@
   },
   "active": "5edcec09361e5540",
   "lastOpenFiles": [
-    "Cryptography/Lectures/Study notes.md",
+    "README.md",
+    "Cryptography/Lectures/Study-notes.md",
+    "Study-notes.md",
+    "Study.md",
     "Cryptography/Lectures/Lektion-0.md",
     "Cryptography/Lectures/Lektion-1.md",
-    "README.md",
     "Cryptography/Lectures/Sample Questions.md",
     "Cryptography/Library.md",
     "Cryptography/Rough notes.md",
