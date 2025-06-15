@@ -15,26 +15,31 @@ Some basic Stuff of Logs and exponents
 
 ### 0.2-Modular-Arithmetic
 <a id="0.2-Modular-Arithmetic"></a>
-Some basic stuff to recap
-	1. We write set of integers as: 
-		$\mathbb{Z} \overset{\text{def}}{=} \{ \ldots, -2, -1, 0, 1, 2, \ldots \}$
-	2. We write set of Natural numbers as 
-		$\mathbb{N} \overset{\text{def}}{=} \{0, 1, 2, 3, \ldots \}$
+Some basic stuff to recap :
+1. We write set of integers as: 
+	$\mathbb{Z} \overset{\text{def}}{=} \{ \ldots, -2, -1, 0, 1, 2, \ldots \}$
+2. We write set of Natural numbers as 
+	$\mathbb{N} \overset{\text{def}}{=} \{0, 1, 2, 3, \ldots \}$
 
 **1. Definition** : for $x, n \in \mathbb{Z}$ , we say that $n$ **divides** $x$ (or $x$ is a **multiple** of $n$ ), and write $n \mid x$ , if there exists an integer $k$ such that $x = kn$. 
+
 **2. Definition** : Let $n$ be a positive integer, and let $a$ be any integer. The expression $a$ % $n$ (usually read as $a \bmod n$ )  represents the remainder after dividing $a$ by $n$. More formally, $a$ % $n$ is the unique $r \in {{0 ,\ldots, n-1}}$ such that $n \mid (a-r)$. 
-	Pay attention that '$a\mod n$' is always a non negative number, even if $a$ is negative.
-	example: 
-		21 mod 7 = 0 because 21 = 3 . 7 + <u>0</u>
-		-20 mod 7 = 1 because -20 = (-3) . 7 + <u>1</u> 
-		-1 mod 7 = 6 because -1 = (-1) . 7 + <u>6</u>
+Pay attention that '$a\mod n$' is always a non negative number, even if $a$ is negative.
+example: 
+1. 21 mod 7 = 0 because 21 = 3 . 7 + <u>0</u>
+2. -20 mod 7 = 1 because -20 = (-3) . 7 + <u>1</u> 
+3. -1 mod 7 = 6 because -1 = (-1) . 7 + <u>6</u>
+
 **3. Definition** : For positive $n$, we write $\mathbb{Z}_n \overset{\text{def}}{=} \{0, 1, 2, \ldots, n-1\}$ to denote the set of integers modulo $n$. These are the possible remainders one obtains by dividing by $n^2$.  
+
 **4. Definition** : For positive $n$, we say that integers $a$ and $b$ are **congruent modulo** $n$, and write $a \equiv_n b \iff a \bmod n = b \bmod n$
-	 1. $a \equiv_n b$ : In this expression, $a$ and $b$ can be integers of any size, and any sign. The left and right side have a certain relationship modulo $n$.
-	2. $a = b \bmod n$ : This expression says that two integers are equal. The '=' rather than '$\equiv$' is the clue that the expression refers to equailty over the integers. "$b \bmod n$" on the right-hand side is an operation performed on two integers that returns an integer results. The result of  $b \bmod n$ is an integer in the range $\{0, 1, 2, \ldots, n-1 \}$.
-	example: "99 $\equiv_{10}$ 19" is true. Applying the deifintion. we see that 10 divides 99 - 19.
-		    on the other hand, " 99 = 19 % 10 " is *false* the right - hand side evaluated to the integer 9, but 99 and 9 are different integers.
-	 In short the expression like $a \equiv_n b$ make sense for any $a, b$ (including negitive!), but expressions like $a = b$ % $n$ make sense only if $a \in \mathbb{Z_n}$.
+
+ 1. $a \equiv_n b$ : In this expression, $a$ and $b$ can be integers of any size, and any sign. The left and right side have a certain relationship modulo $n$.
+2. $a = b \bmod n$ : This expression says that two integers are equal. The '=' rather than '$\equiv$' is the clue that the expression refers to equailty over the integers. "$b \bmod n$" on the right-hand side is an operation performed on two integers that returns an integer results. The result of  $b \bmod n$ is an integer in the range $\{0, 1, 2, \ldots, n-1 \}$. 
+
+example:
+"99 $\equiv_{10}$ 19" is true. Applying the deifintion. we see that 10 divides 99 - 19. On the other hand, "99 = 19 % 10 " is *false* the right - hand side evaluated to the integer 9, but 99 and 9 are different integers.
+In short the expression like $a \equiv_n b$ make sense for any $a, b$ (including negitive!), but expressions like $a = b$ % $n$ make sense only if $a \in \mathbb{Z_n}$.
 
  If $d \mid x$ and $d \mid y$, then $d$ is a **common divisor** of $x$ and $y$. the largest possible such $d$ is called the **greatest common divisor (GCD)**, denoted gcd($x , y$). if gcd($x ,y$) = 1, then we say that $x$ and $y$ are **relatively prime**.
 
@@ -42,16 +47,30 @@ Some basic stuff to recap
 **Tips and Tricks:**
 
 Example: we can evaluate the expression 6 . 7 . 8 . 9 . 10 % 11 without ever calculating that product over the integers, by using the following reasoning:
-	$$
-	6 . 7 . 8 . 9 . 10 = (42) . 8 . 9 . 10
-	$$
-	$$\equiv_{11} 9 . 8 . 9 . 10 $$
-	$$= (72) . 9 . 10$$
-	$$\equiv_{11} 6 . 9 . 10$$
-	$$= (54) . 10$$
-	$$\equiv_{11} 10 . 10$$
-	$$= 100$$
-	$$\equiv_{11} 1$$
+$$
+6 . 7 . 8 . 9 . 10 = (42) . 8 . 9 . 10
+$$
+$$
+\equiv_{11} 9 . 8 . 9 . 10
+$$
+$$
+= (72) . 9 . 10
+$$
+$$
+\equiv_{11} 6 . 9 . 10
+$$
+$$
+= (54) . 10
+$$
+$$
+\equiv_{11} 10 . 10
+$$
+$$
+= 100
+$$
+$$
+\equiv_{11} 1
+$$
 
 ### 0.3-Strings
 <a id="0.3-Strings"></a>

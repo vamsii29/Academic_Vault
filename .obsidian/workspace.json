@@ -20,19 +20,27 @@
               "icon": "lucide-file",
               "title": "Lektion-0"
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "60231b2b0240197d",
+        "type": "tabs",
+        "children": [
           {
-            "id": "7bb10dea96986316",
+            "id": "c83b4fee0ac22738",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "Cryptography/Lectures/Lektion-0.md",
-                "mode": "source",
-                "source": false
+                "file": "Cryptography/Resources/book.pdf",
+                "page": 13,
+                "left": -18,
+                "top": 604,
+                "zoom": 0.8774509803921569
               },
-              "icon": "lucide-file",
-              "title": "Lektion-0"
+              "icon": "lucide-file-text",
+              "title": "book"
             }
           }
         ]
@@ -185,10 +193,11 @@
   },
   "active": "364829026667962a",
   "lastOpenFiles": [
-    "Cryptography/Lectures/Sample Questions.md",
+    "Cryptography/Resources/book.pdf",
     "Cryptography/Lectures/Lektion-0.md",
-    "Cryptography/Lectures/Lektion-1.md",
     "Cryptography/Lectures/Study-notes.md",
+    "Cryptography/Lectures/Sample Questions.md",
+    "Cryptography/Lectures/Lektion-1.md",
     "README.md",
     "_layout/default.html.md",
     "_layouts/default.html",
@@ -208,7 +217,6 @@
     "[[.md",
     "Cryptography/Untitled.md",
     "Cryptography/Lectures",
-    "Cryptography/Resources/book.pdf",
     "Cryptography/Library.md.md",
     "Cryptography/Resources/KL21.pdf",
     "The Joy of Cryptography by *Mike.md",

@@ -1,11 +1,11 @@
-#OVERVIEW 
-#INTRODUCTION 
-
 ---
 layout : default
+title : Cryptography Fundamentals: A Study Guide
+---
+#OVERVIEW 
+#INTRODUCTION 
 # Cryptography Fundamentals: A Study Guide
 ---
-
 
 This study guide is designed to help you review and deepen your understanding of core cryptography concepts. It covers foundational mathematical principles, essential cryptographic primitives, and various security definitions and attack models.
 ## I. Core Concepts & Notation ([Lektion-0](Lektion-0.md))
