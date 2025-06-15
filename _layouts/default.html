@@ -1,24 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" />
     <title>{{ page.title }}</title>
 
-    <!-- MathJax for LaTeX rendering -->
-    <script type="text/javascript" async
-      src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+    <!-- Enable inline & block math rendering -->
+    <script>
+      window.MathJax = {
+        tex: {
+          inlineMath: [['$', '$'], ['\\(', '\\)']],
+          displayMath: [['$$', '$$'], ['\\[', '\\]']]
+        }
+      };
     </script>
 
-    <!-- Optional: some basic styling -->
+    <!-- Load MathJax -->
+    <script
+      type="text/javascript"
+      async
+      src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"
+    ></script>
+
+    <!-- Optional: Simple styling -->
     <style>
       body {
-        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-        margin: 2rem;
-        line-height: 1.6;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+          "Helvetica Neue", Arial, sans-serif;
         max-width: 800px;
+        margin: 2rem auto;
+        line-height: 1.6;
+        padding: 0 1rem;
+      }
+
+      code {
+        background: #f4f4f4;
+        padding: 2px 4px;
+        border-radius: 4px;
+      }
+
+      pre {
+        background: #f4f4f4;
+        padding: 1rem;
+        overflow: auto;
+      }
+
+      h1, h2, h3 {
+        margin-top: 2rem;
       }
     </style>
   </head>
+
   <body>
     <main>
       {{ content }}
