@@ -1,12 +1,8 @@
-<a id="Lektion-0"></a>
-
 ---
 layout : default
 title: Chapter - 0 : Review of Concepts and Notations
-
 ---
-
-
+<a id="Lektion-0"></a>
 ## Chapter - 0 : Review of Concepts and Notations
 ---
 ### 0.1-Logs-and-Exponents:
