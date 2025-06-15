@@ -183,11 +183,11 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "364829026667962a",
+  "active": "431c75456448f293",
   "lastOpenFiles": [
     "_layout/default.html.md",
     "README.md",
-    "_layout/default.html",
+    "_layouts/default.html",
     "Lektion.md",
     "Cryptography/Lectures/Lektion-0.md",
     "Cryptography/Lectures/Study-notes.md",
