@@ -128,8 +128,8 @@ We'll often describe algorithm / process using pseudocode.
 		means
 		$$\texttt{void} \quad \texttt{foo(string\:x)} \quad  \{ \ldots \}$$
 
-### 0.7-Asymptotic-(*Big-O*)
-<a id="0.7-Asymptotic-(Big-O)"></a>
+### 0.7-Asymptotic-Notations
+<a id="0.7-Asymptotic-Notations"></a>
 Let $f : \mathbb{N} \rightarrow \mathbb{N}$ be a function. We characterize the asymptotic growth of $f$ in the following ways"
 
 - #### Big - O Notation:  
