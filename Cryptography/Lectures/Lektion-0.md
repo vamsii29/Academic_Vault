@@ -1,8 +1,8 @@
 <a id="Lektion-0"></a>
 
 ---
+layout : default
 ## Chapter - 0 : Review of Concepts and Notations
-
 ---
 ### 0.1-Logs-and-Exponents:
 <a id="0.1-Logs-and-Exponents"></a>

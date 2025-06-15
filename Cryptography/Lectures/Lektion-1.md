@@ -1,7 +1,7 @@
 
 ---
+layout : default
 ## One-Time Pad
-
 ---
 
 - This chapter is about the classic problem of **Private communication**
