@@ -1,5 +1,9 @@
 # 🎓 AcademicVault
 
+<script type="text/javascript" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+</script>
+
 This vault is my personal academic workspace built with [Obsidian](https://obsidian.md/), synced via iCloud for cross-device access and backed up with Git + GitHub for version control.
 
 ---
@@ -42,3 +46,6 @@ Used strictly for academic purposes. Notes are private and not meant for public 
 # 📚All Notes
 
 - [Cryptography Notes](./Cryptography/Lectures/Study-notes.md) 
+
+
+
