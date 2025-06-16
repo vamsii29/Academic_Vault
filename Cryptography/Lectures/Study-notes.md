@@ -12,7 +12,7 @@ This study guide is designed to help you review and deepen your understanding of
 ## I. Core Concepts & Notation ([Lektion-0](Lektion-0.md))
 
 1. **[Logs and Exponents](Lektion-0.md#0.1-Logs-and-Exponents):** Understanding exponential relationships and their inverse, logarithms.
-2. **[Modular Arithmetic](Lektion-0.md#0.2-Modular-Arithmetic):** Operations on integers modulo n, including definitions of $\mathbb{Z}_n$, congruence ($a \equiv_{n} b$), and the concept of a multiplicative inverse. Euclid's algorithm for Greatest Common Divisor (GCD) and its extension for finding modular inverses.
+2. **[Modular Arithmetic](Lektion-0.md#0.2-Modular-Arithmetic):** Operations on integers modulo n, including definitions of $\mathbb{Z}_n , \text{congruence} \: (a \equiv_{n} b)$, and the concept of a multiplicative inverse. Euclid's algorithm for Greatest Common Divisor (GCD) and its extension for finding modular inverses.
 3. **[Strings (XOR)](Lektion-0.md#0.3-Strings):** Bitwise exclusive-or (XOR) operation on strings of equal length, its properties (self-inverse, identity, associativity, symmetry), and its interpretation as bit-flipping.
 4. **[Functions](Lektion-0.md#0.4-Functions):** Basic definitions and properties of functions relevant to cryptographic contexts.
 5. **[Probability](Lektion-0.md#0.5-Probability):** Fundamental probability concepts used in security definitions and analysis (e.g., Birthday Probabilities).
@@ -26,14 +26,14 @@ This study guide is designed to help you review and deepen your understanding of
 - **[One-Time Pad (OTP)](Lektion-1.md#One-TimePad):** Understanding the specifics of OTP encryption and its perfect secrecy.
 - **Kerckhoffs' Principle:** The principle that a cryptosystem should be secure even if everything about the system, except the key, is public knowledge.
 
-### B. Provable Security (Chapter 2)
+### B. Provable Security (Lektion 2)
 
 - **Security Definitions:** Formalizing security definitions using indistinguishability between "real" and "random" or "fake" libraries.
 - **Formalisms for Security Definitions (Hybrid Technique):** The hybrid argument as a proof technique to demonstrate indistinguishability between cryptographic schemes.
 - **Demonstrating Insecurity with Attacks:** How to identify and describe distinguishing attacks that break a scheme's security.
 - **Comparing/Contrasting Security Definitions:** Understanding the relationships and differences between various security models.
 
-### C. Secret Sharing (Chapter 3)
+### C. Secret Sharing (Lektion 3)
 
 - **Definitions:** Threshold Secret-Sharing Schemes (TSSS) and their security definitions.
 - **Simple 2-out-of-2 Scheme:** A basic example of a secret sharing scheme.
@@ -41,14 +41,14 @@ This study guide is designed to help you review and deepen your understanding of
 - **Shamir Secret Sharing:** A (t, n)-threshold secret sharing scheme based on polynomial interpolation. Understanding its security proof.
 - **Visual Secret Sharing:** A specialized secret sharing method.
 
-### D. Foundations of Computational Security (Chapter 4)
+### D. Foundations of Computational Security (Lektion 4)
 
 - **Computationally Infeasible Attacks:** Defining what constitutes an "infeasible" attack in a computational setting, linking to asymptotic notation.
 - **Negligible Success Probability:** Defining "negligible" probabilities for an adversary's success.
 - **Indistinguishability:** A core concept in provable security, particularly for distinguishing between a "real" cryptographic object and a "random" or "fake" one.
 - **Birthday Probabilities:** Understanding the Birthday Paradox and its implications for attack probabilities.
 
-### E. Pseudorandom Generators (PRGs) (Chapter 5)
+### E. Pseudorandom Generators (PRGs) (Lektion 5)
 
 - **Definitions:** Formal definition of a PRG and its security.
 - **PRGs in Practice:** Practical applications of PRGs.
@@ -56,7 +56,7 @@ This study guide is designed to help you review and deepen your understanding of
 - **Extending the Stretch of a PRG:** Techniques for increasing the output length of a PRG.
 - **Applications: Stream Cipher & Symmetric Ratchet:** Understanding these applications and their security implications.
 
-### F. Pseudorandom Functions (PRFs) & Block Ciphers (Chapter 6)
+### F. Pseudorandom Functions (PRFs) & Block Ciphers (Lektion 6)
 
 - **Definition of PRF:** Formal definition of a PRF.
 - **PRFs vs. PRGs; Variable-Hybrid Proofs:** Distinctions between PRFs and PRGs, and the use of variable-hybrid proofs.
@@ -65,46 +65,46 @@ This study guide is designed to help you review and deepen your understanding of
 - **PRFs and Block Ciphers in Practice:** Real-world usage.
 - **Strong Pseudorandom Permutations:** A stronger security notion for PRPs.
 
-### G. Security Against Chosen Plaintext Attacks (CPA) (Chapter 7)
+### G. Security Against Chosen Plaintext Attacks (CPA) (Lektion 7)
 
 - **Limits of Deterministic Encryption:** Why deterministic encryption often fails against CPA.
 - **Pseudorandom Ciphertexts:** The concept that ciphertexts should appear random under a CPA-secure scheme.
 - **CPA-Secure Encryption Based On PRFs:** Constructions of CPA-secure encryption schemes using PRFs.
 
-### H. Block Cipher Modes of Operation (Chapter 8)
+### H. Block Cipher Modes of Operation (Lektion 8)
 
 - **Common Modes:** Understanding modes like CBC (Cipher Block Chaining) and CTR (Counter Mode).
 - **CPA Security and Variable-Length Plaintexts:** How modes extend block ciphers to handle variable-length messages while maintaining CPA security.
 - **Security of OFB Mode:** Analysis of Output Feedback (OFB) mode security.
 - **Padding & Ciphertext Stealing:** Techniques for handling plaintext messages that are not a multiple of the block length (PKCS#7, ISO/IEC 7816-4, zero-padding, CBC-CTS).
 
-### I. Chosen Ciphertext Attacks (CCA) (Chapter 9)
+### I. Chosen Ciphertext Attacks (CCA) (Lektion 9)
 
 - **Padding Oracle Attacks:** A prominent example of a CCA against improperly implemented padding.
 - **Defining CCA Security:** Formal definitions of CCA and CCA$.
 - **Simple CCA-Secure Scheme:** Examples of schemes designed to resist CCA.
 
-### J. Message Authentication Codes (MACs) (Chapter 10)
+### J. Message Authentication Codes (MACs) (Lektion 10)
 
 - **Definition of MAC:** Formal definition of a MAC and its security properties.
 - **A PRF is a MAC:** The relationship between PRFs and MACs.
 - **MACs for Long Messages:** Techniques for authenticating messages longer than a single block.
 - **Encrypt-Then-MAC:** A common and generally recommended approach for achieving authenticated encryption.
 
-### K. Hash Functions (Chapter 11)
+### K. Hash Functions (Lektion 11)
 
 - **Security Properties for Hash Functions:** Collision resistance, second pre-image resistance, and pre-image resistance.
 - **Merkle-Damgård Construction:** A common method for building hash functions from compression functions.
 - **Hash Functions vs. MACs: Length-Extension Attacks:** Understanding the differences and attacks specific to hash functions, like length-extension attacks.
 
-### L. Authenticated Encryption & AEAD (Chapter 12)
+### L. Authenticated Encryption & AEAD (Lektion 12)
 
 - **Definitions:** Formal definitions of Authenticated Encryption (AE) and Authenticated Encryption with Associated Data (AEAD).
 - **Achieving AE/AEAD:** Strategies for constructing AE/AEAD schemes.
 - **Carter-Wegman MACs:** A type of MAC often used in AEAD constructions, relying on Universal Hash Functions (UHFs).
 - **Galois Counter Mode (GCM) for AEAD:** A widely used AEAD mode.
 
-### M. RSA & Digital Signatures (Chapter 13)
+### M. RSA & Digital Signatures (Lektion 13)
 
 - **"Dividing" Mod n (Multiplicative Inverse):** Understanding modular inverse and its relationship to GCD (Bezout's theorem, Extended Euclidean Algorithm).
 - **The RSA Function:** Definition of the RSA encryption and decryption functions, relying on modular exponentiation and Euler's totient function.
@@ -114,13 +114,13 @@ This study guide is designed to help you review and deepen your understanding of
 - **Square Roots of Unity Modulo N:** Properties of square roots modulo composite numbers.
 - **Exponentiation by Repeated Squaring:** An efficient algorithm for modular exponentiation.
 
-### N. Diffie-Hellman Key Agreement (Chapter 14)
+### N. Diffie-Hellman Key Agreement (Lektion 14)
 
 - **Cyclic Groups:** Properties of cyclic groups, including generators and closure under multiplication and inverses.
 - **Diffie-Hellman Key Agreement:** The protocol for two parties to establish a shared secret over an insecure channel.
 - **Decisional Diffie-Hellman Problem (DDH):** The computational assumption underlying Diffie-Hellman security, distinguishing between a "real" Diffie-Hellman tuple and a "random" one.
 
-### O. Public-Key Encryption (Chapter 15)
+### O. Public-Key Encryption (Lektion 15)
 
 - **Security Definitions:** Security definitions for public-key encryption (e.g., one-time security).
 - **One-Time Security Implies Many-Time Security:** How a strong one-time security definition can extend to multiple encryptions for public-key systems.
