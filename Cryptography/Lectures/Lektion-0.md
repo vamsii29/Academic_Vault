@@ -78,7 +78,7 @@ Example:  0011 $\oplus$ 0101 = 0110. The following facts about the XOR operation
 Let $X$ and $Y$ be finite sets. A function $f : X \rightarrow Y$ is:
 **Injective** : (1-to-1) if it maps distinct inputs to distinct outputs. 
 - Formally: $x \ne x' \Rightarrow f(x) \ne f(x')$. If there is an injective function from $X$ to $Y$
-- {% raw %} then we must have $|Y| \ge |X|$. {% endraw %}
+- then we must have \\(|Y| \ge |X|\\).
 
 **Surjective** : (onto) if every element in $Y$ is a possible output of $f$. 
 - Formally: for all $y \in Y$ there exists an $x \in X$ with $f(x) = y$. 
