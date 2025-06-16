@@ -78,7 +78,7 @@ Example:  0011 $\oplus$ 0101 = 0110. The following facts about the XOR operation
 Let $X$ and $Y$ be finite sets. A function $f : X \rightarrow Y$ is:
 **Injective** : (1-to-1) if it maps distinct inputs to distinct outputs. 
 - Formally: $x \ne x' \Rightarrow f(x) \ne f(x')$. If there is an injective function from $X$ to $Y$
-- then we must have \\(|Y| \ge |X|\\).
+- then we must have $|Y| \ge |X|$.
 
 **Surjective** : (onto) if every element in $Y$ is a possible output of $f$. 
 - Formally: for all $y \in Y$ there exists an $x \in X$ with $f(x) = y$. 
@@ -92,17 +92,22 @@ Let $X$ and $Y$ be finite sets. A function $f : X \rightarrow Y$ is:
 <a id="0.5-Probability"></a>
 
 **Definition** : A (*discrete*) probability distribution over a set $X$ of outcomes is usually written as a function "$\Pr$" that associates each outcome $x \in X$ with a probability $\Pr[x]$. We often say that the distribution assigns probability $\Pr[x]$ to outcome $x$.
-	- for each outcome $x \in X$, the probability distribution must satisfy the condition $0 \le \Pr[x] \le 1$. Additionally, the sum of all probabilities $\sum_{x \in X} \Pr[x]$ must equal 1.
+
+- for each outcome $x \in X$, the probability distribution must satisfy the condition $0 \le \Pr[x] \le 1$
+- Additionally, the sum of all probabilities $\sum_{x \in X} \Pr[x]$ must equal 1.
+
 **Definition** : A special distribution is the uniform distribution over a finite set $X$, in which every $x \in X$ is assigned probability $\Pr[x] = \frac{1}{|X|}$. 
-	- We also extend the notation $\Pr$ to events, which are collections of outcomes. Formally , an event $A$ is any subset of the possible outcomes, and its probability is defined to be $\Pr[A] = \sum_{x \in A} \Pr[x]$. we always simplify the notation slightly, so instead of writing $\Pr[\{x \mid x \ \text{satisifies some condition}\}]$, we write $\Pr[condition]$.
+- We also extend the notation $\Pr$ to events, which are collections of outcomes. 
+- Formally , an event $A$ is any subset of the possible outcomes, and its probability is defined to be $\Pr[A] = \sum_{x \in A} \Pr[x]$. 
+- we always simplify the notation slightly, so instead of writing $\Pr[\{x \mid x \ \text{satisifies some condition}\}]$, we write $\Pr[condition]$.
 
 
 **Tips and Tricks:**
 
  1. Knowing one of the probabilities $\Pr[A]$ and $\Pr[\neg A]$ (which is "the probability that $A$ doesn't happen") tells us exactly waht the other probability is, via the relationship
-		$$
-		\Pr[A] = 1 - \Pr[\neg A]
-		$$
+$$
+\Pr[A] = 1 - \Pr[\neg A]
+$$
 2.  This is one of the most basic facts about probability, but it can be surprisingly useful since one of $\Pr[A]$ and $\Pr[\neg A]$ is often much easier to calculate than the other.
 
 #### Using Precise terminology 
@@ -122,20 +127,21 @@ We'll often describe algorithm / process using pseudocode.
 	- When $D$ is a probability distribution, we write $x \leftarrow D$ to mean "sample $x$ according to the distribution $D$."
 	- If $A$ is an algorithm that takes input and also makes some internal random choices, then it is natural to think of its output $A(y)$ as a distribution - possibly a different distribution for each input $y$. Then we write $x \leftarrow A(y)$ to mean the natural thing: "run $A$ on input $y$ and assign the output to $x$." 
 	- We overload the "$\leftarrow$" notation slightly, writing "$x \leftarrow X$" when $X$ is a finite set to mean that $x$ is sampled from the *uniform distribution* over $X$.
-
 2. $\coloneqq$
 	- We write $x \coloneqq y$ for the assignments to variables: "take the value of expression $y$ and assign it to variable $x$. "
 3. $\stackrel{?}{=}$ 
 	- We write comparisons as $\stackrel{?}{=}$ (analogous to "$==$ in C programming language"). So $x \stackrel{?}{=} y$ doesn't modify $x$ (or $y$), but rather it is an expression which returns $\text{true}$ if $x$ and $y$ are equal.
 	- it is often seen in the conditional part of an if-statement, but also in return statements as well.
 
-	### **Subroutine Conventions**
-	- We'll use mathematical notations to define the types of subroutine arguments:
-		$$
-		\frac{\texttt{FOO} (x \in \{0,1\}^*):}{\quad \ldots}
-		$$
-		means
-		$$\texttt{void} \quad \texttt{foo(string\:x)} \quad  \{ \ldots \}$$
+#### **Subroutine Conventions**
+- We'll use mathematical notations to define the types of subroutine arguments:
+$$
+\frac{\texttt{FOO} (x \in \{0,1\}^*):}{\quad \ldots}
+$$
+means
+$$
+\texttt{void} \quad \texttt{foo(string\:x)} \quad  \{ \ldots \}
+$$
 
 ### 0.7-Asymptotic-Notations
 <a id="0.7-Asymptotic-Notatio"></a>
