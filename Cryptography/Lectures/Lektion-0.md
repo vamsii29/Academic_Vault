@@ -77,13 +77,16 @@ Example:  0011 $\oplus$ 0101 = 0110. The following facts about the XOR operation
 <a id="0.4-Functions"></a>
 Let $X$ and $Y$ be finite sets. A function $f : X \rightarrow Y$ is:
 **Injective** : (1-to-1) if it maps distinct inputs to distinct outputs. 
-- Formally: $x \ne x' \Rightarrow f(x) \ne f(x')$. If there is an injective function from $X$ to $Y$, then we must have $|Y| \ge |X|$.
+- Formally: $x \ne x' \Rightarrow f(x) \ne f(x')$. If there is an injective function from $X$ to $Y$
+- {% raw %} then we must have $|Y| \ge |X|$. {% endraw %}
 
 **Surjective** : (onto) if every element in $Y$ is a possible output of $f$. 
-- Formally: for all $y \in Y$ there exists an $x \in X$ with $f(x) = y$. if there is a surjective function from $X$ to $Y$, then we must have $|Y| \le |X|$.
+- Formally: for all $y \in Y$ there exists an $x \in X$ with $f(x) = y$. 
+- if there is a surjective function from $X$ to $Y$, then we must have $|Y| \le |X|$.
 
 **Bijective** : (1-to-1 correspondence) if $f$ is both **injective and surjective**. 
-- If there is a bijective function from $X$ to $Y$, then we must have $|X| = |Y|$.
+- If there is a bijective function from $X$ to $Y$, 
+- then we must have $|X| = |Y|$.
 
 ### 0.5-Probability
 <a id="0.5-Probability"></a>
