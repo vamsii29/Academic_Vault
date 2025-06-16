@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cryptography/Lectures/Study-notes.md",
+                "file": "Cryptography/Lectures/Lektion-0.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Study-notes"
+              "title": "Lektion-0"
             }
           }
         ]
@@ -36,8 +36,8 @@
                 "file": "Cryptography/Resources/book.pdf",
                 "page": 13,
                 "left": -18,
-                "top": 604,
-                "zoom": 0.8774509803921569
+                "top": 613,
+                "zoom": 0.877450980392157
               },
               "icon": "lucide-file-text",
               "title": "book"
@@ -193,8 +193,8 @@
   },
   "active": "364829026667962a",
   "lastOpenFiles": [
-    "Cryptography/Lectures/Lektion-0.md",
     "Cryptography/Lectures/Study-notes.md",
+    "Cryptography/Lectures/Lektion-0.md",
     "Cryptography/Resources/book.pdf",
     "Cryptography/Lectures/Sample Questions.md",
     "Cryptography/Lectures/Lektion-1.md",

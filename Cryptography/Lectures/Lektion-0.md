@@ -26,9 +26,9 @@ Some basic stuff to recap :
 **2. Definition** : Let $n$ be a positive integer, and let $a$ be any integer. The expression $a$ % $n$ (usually read as $a \bmod n$ )  represents the remainder after dividing $a$ by $n$. More formally, $a$ % $n$ is the unique $r \in {{0 ,\ldots, n-1}}$ such that $n \mid (a-r)$. 
 Pay attention that '$a\mod n$' is always a non negative number, even if $a$ is negative.
 example: 
-1. 21 mod 7 = 0 because 21 = 3 . 7 + <u>0</u>
-2. -20 mod 7 = 1 because -20 = (-3) . 7 + <u>1</u> 
-3. -1 mod 7 = 6 because -1 = (-1) . 7 + <u>6</u>
+1. $21\mod 7 = 0$ because 21 = 3 . 7 + <u>0</u>
+2. $-20\mod 7 = 1$ because -20 = (-3) . 7 + <u>1</u> 
+3. $-1\mod 7 = 6$ because -1 = (-1) . 7 + <u>6</u>
 
 **3. Definition** : For positive $n$, we write $\mathbb{Z}_n \overset{\text{def}}{=} \{0, 1, 2, \ldots, n-1\}$ to denote the set of integers modulo $n$. These are the possible remainders one obtains by dividing by $n^2$.  
 
@@ -58,26 +58,32 @@ Example: we can evaluate the expression 6 . 7 . 8 . 9 . 10 % 11 without ever cal
 
 ### 0.3-Strings
 <a id="0.3-Strings"></a>
-
 **Definition** : when $x$ and $y$ are strings of the same length, we write $x \oplus y$ to denote the bitwise exclusive-or (XOR) of the two strings. The expression $x \oplus y$ is generally not defined when the strings are different lengths, but in rare occasions it is useful to consider the shorter string being padded with 0s. When that's the case, we must have an explicit convention about whether the shorter string is padded with leading 0s or trailing 0s. 
-	 Example:  0011 $\oplus$ 0101 = 0110. The following facts about the XOR operation are frequently useful:
-		-  $x \oplus x = 000...$                   XOR'ing a string with itself results in zeroes.
-		- $x \oplus 000...$ = $x$                     XOR'ing with zeros has no effect.
-		- $x \oplus 111... = \overline{x}$                    XOR'ing with ones flips every bit. 
-		- $x \oplus y = y \oplus x$                     XOR is symmetric.
-		- $(x \oplus y) \oplus z = x \oplus (y \oplus z)$  XOR is associative.
-		- 
+
+Example:  0011 $\oplus$ 0101 = 0110. The following facts about the XOR operation are frequently useful:
+-  $x \oplus x = 000...$                   XOR'ing a string with itself results in zeroes.
+- $x \oplus 000...$ = $x$                     XOR'ing with zeros has no effect.
+- $x \oplus 111... = \overline{x}$                    XOR'ing with ones flips every bit. 
+- $x \oplus y = y \oplus x$                     XOR is symmetric.
+- $(x \oplus y) \oplus z = x \oplus (y \oplus z)$  XOR is associative.
+
  **Bit-flipping** : Note that XOR'ing a bit with 0 has no effect, while XOR'ing with 1 flips that bit.
+ 
  **Addition mod-2** : XOR is just addition mod 2 in every bit. This way of thinking about XOR helps to explain why "algebraic" things like $(x \oplus y) \oplus z = x \oplus (y \oplus z)$ are true. They are true for addition so they are true for XOR.
+ 
  **Definition** : we write $x \parallel y$  to denote the result of concatenating $x$ and $y$.
 
 ### 0.4-Functions
 <a id="0.4-Functions"></a>
-
 Let $X$ and $Y$ be finite sets. A function $f : X \rightarrow Y$ is:
-1. **Injective** : (1-to-1) if it maps distinct inputs to distinct outputs. Formally: $x \ne x' \Rightarrow f(x) \ne f(x')$. If there is an injective function from $X$ to $Y$, then we must have $|Y| \ge |X|$.
-2. **Surjective** : (onto) if every element in $Y$ is a possible output of $f$. Formally: for all $y \in Y$ there exists an $x \in X$ with $f(x) = y$. if there is a surjective function from $X$ to $Y$, then we must have $|Y| \le |X|$.
-3. **Bijective** : (1-to-1 correspondence) if $f$ is both **injective and surjective**. If there is a bijective function from $X$ to $Y$, then we must have $|X| = |Y|$.
+**Injective** : (1-to-1) if it maps distinct inputs to distinct outputs. 
+- Formally: $x \ne x' \Rightarrow f(x) \ne f(x')$. If there is an injective function from $X$ to $Y$, then we must have $|Y| \ge |X|$.
+
+**Surjective** : (onto) if every element in $Y$ is a possible output of $f$. 
+- Formally: for all $y \in Y$ there exists an $x \in X$ with $f(x) = y$. if there is a surjective function from $X$ to $Y$, then we must have $|Y| \le |X|$.
+
+**Bijective** : (1-to-1 correspondence) if $f$ is both **injective and surjective**. 
+- If there is a bijective function from $X$ to $Y$, then we must have $|X| = |Y|$.
 
 ### 0.5-Probability
 <a id="0.5-Probability"></a>
