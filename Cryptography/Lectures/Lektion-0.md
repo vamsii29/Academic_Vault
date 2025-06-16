@@ -134,11 +134,15 @@ We'll often describe algorithm / process using pseudocode.
 	- it is often seen in the conditional part of an if-statement, but also in return statements as well.
 
 #### **Subroutine Conventions**
-- We'll use mathematical notations to define the types of subroutine arguments:
-$$
+
+We'll use mathematical notations to define the types of subroutine arguments:
+
+ $$
 \frac{\texttt{FOO} (x \in \{0,1\}^*):}{\quad \ldots}
 $$
+
 means
+
 $$
 \texttt{void} \quad \texttt{foo(string\:x)} \quad  \{ \ldots \}
 $$
