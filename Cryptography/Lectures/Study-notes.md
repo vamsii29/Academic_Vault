@@ -1,17 +1,18 @@
 ---
 layout : default
-title : Cryptography Fundamentals: A Study Guide
+title : "Cryptography Fundamentals: A Study Guide"
 ---
-#OVERVIEW 
-#INTRODUCTION 
+#OVERVIEW #INTRODUCTION 
+
 # Cryptography Fundamentals: A Study Guide
 ---
 
 This study guide is designed to help you review and deepen your understanding of core cryptography concepts. It covers foundational mathematical principles, essential cryptographic primitives, and various security definitions and attack models.
+
 ## I. Core Concepts & Notation ([Lektion-0](Lektion-0.md))
 
 1. **[Logs and Exponents](Lektion-0.md#0.1-Logs-and-Exponents):** Understanding exponential relationships and their inverse, logarithms.
-2. **[Modular Arithmetic](Lektion-0.md#0.2-Modular-Arithmetic): ($\mathbb{Z}_n$, congruence, GCD, inverse):** Operations on integers modulo n, including definitions of $\mathbb{Z}_n$, congruence ($a \equiv_{n} b$), and the concept of a multiplicative inverse. Euclid's algorithm for Greatest Common Divisor (GCD) and its extension for finding modular inverses.
+2. **[Modular Arithmetic](Lektion-0.md#0.2-Modular-Arithmetic)**:**($\mathbb{Z}_n$,congruence, GCD, inverse):** Operations on integers modulo n, including definitions of $\mathbb{Z}_n$, congruence ($a \equiv_{n} b$), and the concept of a multiplicative inverse. Euclid's algorithm for Greatest Common Divisor (GCD) and its extension for finding modular inverses.
 3. **[Strings (XOR)](Lektion-0.md#0.3-Strings):** Bitwise exclusive-or (XOR) operation on strings of equal length, its properties (self-inverse, identity, associativity, symmetry), and its interpretation as bit-flipping.
 4. **[Functions](Lektion-0.md#0.4-Functions):** Basic definitions and properties of functions relevant to cryptographic contexts.
 5. **[Probability](Lektion-0.md#0.5-Probability):** Fundamental probability concepts used in security definitions and analysis (e.g., Birthday Probabilities).
