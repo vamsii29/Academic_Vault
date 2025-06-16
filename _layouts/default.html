@@ -4,12 +4,17 @@
     <meta charset="UTF-8" />
     <title>{{ page.title }}</title>
 
-    <!-- Enable inline & block math rendering -->
+    <!-- Enable inline & block math rendering with custom macros -->
     <script>
       window.MathJax = {
         tex: {
           inlineMath: [['$', '$'], ['\\(', '\\)']],
-          displayMath: [['$$', '$$'], ['\\[', '\\]']]
+          displayMath: [['$$', '$$'], ['\\[', '\\]']],
+          macros: {
+            coloneq: "\\mathrel{\\mathop:}=",
+            ge: "\\geq",
+            le: "\\leq"
+          }
         }
       };
     </script>
