@@ -41,7 +41,7 @@ Used strictly for academic purposes. Notes are private and not meant for public 
 ---
 # 📚All Notes
 
-- [Cryptography Notes](Study-notes.md) 
+- [Cryptography Notes](./_pages/Cryptography/Lectures/Study-notes.md) 
 
 
 
